@@ -1041,9 +1041,17 @@
 }
 
 @media screen and (max-width: 479px) {
+  #w-node-afda1184-50a7-5394-c58b-9dd0b32ad7f6-1e002314, #w-node-afda1184-50a7-5394-c58b-9dd0b32ad807-1e002314, #w-node-afda1184-50a7-5394-c58b-9dd0b32ad816-1e002314 {
+    grid-column: span 3 / span 3;
+  }
+
   #w-node-b596bb9a-2d16-328e-4049-51795eb6efa7-1e002314 {
     grid-template-rows: auto auto auto auto;
     grid-template-columns: 1fr 1fr;
+  }
+
+  #w-node-_666f6535-a8a3-0906-f5ab-58a723a9f2e4-7bc01a12, #w-node-_666f6535-a8a3-0906-f5ab-58a723a9f2e5-7bc01a12, #w-node-_7cfb53bc-b936-7984-3552-ca87ed417bbf-7bc01a12 {
+    grid-column: span 3 / span 3;
   }
 }
 
