@@ -583,7 +583,9 @@
 }
 
 .text-block-10 {
+  font-size: 16px;
   font-weight: 400;
+  line-height: 22px;
 }
 
 .bold-text-16, .bold-text-17 {
@@ -633,7 +635,7 @@
 
 .heading-4 {
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -762,6 +764,11 @@
   padding: 4px 16px 16px;
 }
 
+.card.horizontal {
+  height: 56px;
+  padding-top: 16px;
+}
+
 .on-card {
   color: var(--white);
 }
@@ -769,6 +776,16 @@
 .quick-stack-4 {
   padding-left: 0;
   padding-right: 0;
+}
+
+.paragraph-2 {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.paragraph-3, .paragraph-4, .paragraph-5, .paragraph-6, .paragraph-7, .paragraph-8, .paragraph-9, .paragraph-10, .paragraph-10-copy {
+  font-size: 16px;
+  line-height: 22px;
 }
 
 @media screen and (max-width: 767px) {
