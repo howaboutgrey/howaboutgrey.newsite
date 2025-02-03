@@ -491,7 +491,7 @@
 .page-container {
   max-width: 940px;
   padding-top: 60px;
-  padding-bottom: 60px;
+  padding-bottom: 0;
 }
 
 .quick-stack {
@@ -743,6 +743,7 @@
   margin-bottom: 20px;
   text-decoration: none;
   display: flex;
+  overflow: visible;
 }
 
 .image-7 {
@@ -792,6 +793,29 @@
   background-color: #cee0e9;
   border-radius: 12px;
   padding: 16px;
+}
+
+.utility-page-wrap {
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: flex;
+}
+
+.utility-page-content {
+  text-align: center;
+  flex-direction: column;
+  width: 260px;
+  display: flex;
+}
+
+.utility-page-form {
+  flex-direction: column;
+  align-items: stretch;
+  display: flex;
 }
 
 @media screen and (max-width: 767px) {
