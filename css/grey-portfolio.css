@@ -788,6 +788,12 @@
   line-height: 22px;
 }
 
+.questions {
+  background-color: #cee0e9;
+  border-radius: 12px;
+  padding: 16px;
+}
+
 @media screen and (max-width: 767px) {
   .timeline_quote-image {
     margin-top: 24px;
